@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Saari Labs Oy</title>
+  <meta name="description" content="Saari Labs Oy is a Finnish software company. Expo ECHO, our exhibition app, helps teams capture every conversation. More products will be listed here.">
+  <meta name="theme-color" content="#f4f9fa">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <svg class="sprite" aria-hidden="true" focusable="false">
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m20 6-11 11-5-5"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M7 17 17 7M7 7h10v10"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></symbol>
+  </svg>
+
+  <a class="skip" href="#content">Skip to content</a>
+
+  <header class="header">
+    <div class="wrap header-bar">
+      <a href="#top" aria-label="Saari Labs Oy home">
+        <img class="logo" src="assets/img/saari-labs-logo.webp" width="520" height="173" alt="Saari Labs Oy — mobile app development">
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#products">Products</a>
+        <a href="#company">Company</a>
+        <a href="#contact">Contact</a>
+        <a class="button button-teal" href="https://echoapp.saarilabs.com/">Expo ECHO <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      </nav>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobile-nav">
+        <svg class="icon icon-menu" aria-hidden="true"><use href="#i-menu"/></svg>
+        <svg class="icon icon-close" aria-hidden="true"><use href="#i-close"/></svg>
+        <span class="sr-only">Open menu</span>
+      </button>
+    </div>
+    <nav id="mobile-nav" class="mobile-nav" hidden aria-label="Mobile">
+      <a href="#about">About</a>
+      <a href="#products">Products</a>
+      <a href="#company">Company</a>
+      <a href="#contact">Contact</a>
+      <a class="mobile-echo" href="https://echoapp.saarilabs.com/">Open Expo ECHO <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+    </nav>
+  </header>
+
+  <main id="content">
+    <section class="hero wrap" id="top">
+      <p class="eyebrow">Finnish software company</p>
+      <h1>Mobile apps for the work in front of you.</h1>
+      <p class="lede">Saari Labs Oy builds practical software. Our first product is Expo ECHO, for exhibition teams who want every conversation captured and ready to follow up. Further products will be listed here as they launch.</p>
+      <div class="actions">
+        <a class="button button-navy" href="#products">See the product</a>
+        <a class="button button-line" href="#company">Company details</a>
+      </div>
+    </section>
+
+    <section class="wrap section" id="about" aria-labelledby="about-title">
+      <h2 id="about-title" class="eyebrow">About</h2>
+      <ul class="cards">
+        <li class="card">
+          <p class="num">01</p>
+          <h3>Mobile app development</h3>
+          <p>That is the work on our mark: focused apps for people doing a job, not a pile of unfinished ideas.</p>
+        </li>
+        <li class="card">
+          <p class="num">02</p>
+          <h3>A catalogue that can grow</h3>
+          <p>Expo ECHO is shipping now. New products join the same list on this page when they are ready to show.</p>
+        </li>
+        <li class="card">
+          <p class="num">03</p>
+          <h3>Registered in Finland</h3>
+          <p>Saari Labs Oy, business ID 3667019-6. Reach the company at sales@saarilabs.com.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="wrap section" id="products" aria-labelledby="products-title">
+      <div class="section-head">
+        <div>
+          <h2 id="products-title" class="eyebrow">Products</h2>
+          <p class="section-title">What Saari Labs ships.</p>
+        </div>
+        <p class="note">One product today. Copy a product block in this page to add the next one.</p>
+      </div>
+      <div class="products">
+        <article class="product">
+          <div class="product-logo">
+            <img src="assets/img/echo-logo.webp" width="520" height="162" alt="Expo ECHO">
+          </div>
+          <div class="product-body">
+            <div class="product-meta">
+              <p class="kicker">Exhibition teams</p>
+              <span class="badge">Available</span>
+            </div>
+            <h3>Expo ECHO</h3>
+            <p>Every conversation holds opportunity. Expo ECHO gives an exhibition team one place to scan contacts, qualify leads, keep the details, and see who is winning the show.</p>
+            <ul class="points">
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg> QR code and business card scanning</li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg> Voice notes, photos and a custom lead form</li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg> Live team leaderboard</li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg> Free, full and company cloud plans</li>
+            </ul>
+            <a class="button button-teal" href="https://echoapp.saarilabs.com/">Visit Expo ECHO <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </div>
+        </article>
+        <!-- Add the next product by copying the <article class="product"> block above. -->
+      </div>
+    </section>
+
+    <section class="wrap section" id="company" aria-labelledby="company-title">
+      <h2 id="company-title" class="eyebrow">Company</h2>
+      <div class="panel">
+        <div class="panel-intro">
+          <h3>Saari Labs Oy</h3>
+          <p>Company details as published with Expo ECHO. The product site also holds the terms of service, privacy notice and data-processing information.</p>
+        </div>
+        <dl class="details">
+          <div>
+            <dt>Legal name</dt>
+            <dd>Saari Labs Oy</dd>
+          </div>
+          <div>
+            <dt>Business ID</dt>
+            <dd>3667019-6</dd>
+          </div>
+          <div>
+            <dt>Postal address</dt>
+            <dd>PL 999, 42011 YRITYSLOKERO, Finland</dd>
+          </div>
+          <div>
+            <dt>Email</dt>
+            <dd><a href="mailto:sales@saarilabs.com">sales@saarilabs.com</a></dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="wrap section contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="contact">
+        <div>
+          <h2 id="contact-title" class="eyebrow eyebrow-gold">Contact</h2>
+          <p class="section-title">Write to the team that builds Expo ECHO.</p>
+          <p class="contact-copy">For a product walkthrough, company plans, or a question about Saari Labs, use the sales address.</p>
+        </div>
+        <ul class="contact-list">
+          <li>
+            <a href="mailto:sales@saarilabs.com"><svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg> sales@saarilabs.com</a>
+          </li>
+          <li>
+            <svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg>
+            <span>Saari Labs Oy<br>PL 999, 42011 YRITYSLOKERO, Finland</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-bar">
+      <p>© <span id="year">2026</span> Saari Labs Oy. Business ID 3667019-6.</p>
+      <nav aria-label="Footer">
+        <a href="https://echoapp.saarilabs.com/">Expo ECHO</a>
+        <a href="https://echoapp.saarilabs.com/legal.html">Product legal</a>
+        <a href="mailto:sales@saarilabs.com">sales@saarilabs.com</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
